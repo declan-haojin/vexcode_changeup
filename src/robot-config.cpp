@@ -5,7 +5,6 @@ using namespace vex;
 brain Brain;
 
 controller controller1 = controller(primary);
-// controller controller2 = controller(partner);
 
 motor motorLF = motor(MOTOR_LF_PORT, ratio18_1, false);
 motor motorLB = motor(MOTOR_LB_PORT, ratio18_1, false);
