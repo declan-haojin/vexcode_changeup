@@ -17,7 +17,6 @@ void chassis_stop()
 
 void chassis_turn_inerial_control(int deg)
 {
-  deg += 4.9;
   double KP = 0.57;
   double speed = 0;
   bool direct = (deg > 0);

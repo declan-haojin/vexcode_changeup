@@ -25,11 +25,6 @@ void all_reset();
 #define RF_DEG fabs(motorRF.rotation(deg))
 #define RB_DEG fabs(motorRB.rotation(deg))
 
-// #define LF_DEG ((motorLF.rotation(deg)>0)?(motorLF.rotation(deg)):(-motorLF.rotation(deg)))
-// #define LF_DEG ((motorLB.rotation(deg)>0)?(motorLB.rotation(deg)):(-motorLB.rotation(deg)))
-// #define LF_DEG ((motorRF.rotation(deg)>0)?(motorRF.rotation(deg)):(-motorRF.rotation(deg)))
-// #define LF_DEG ((motorRB.rotation(deg)>0)?(motorRB.rotation(deg)):(-motorRB.rotation(deg)))
-
 ////////////////////////////// SENSOR ROTATION //////////////////////////////
 #define INERT_DEG fabs(inert.rotation(degrees))
 
